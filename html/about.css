@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.sariq1 {
+    width: 270px;
+    height: 270px;
+    background-color: yellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+}
+
+.sariq2 {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container {
+    width: 85%;
+    height: 75%;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 7;
+    background-color: black;
+}
+
+
+.tepachap {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 0% 0% 100% 0%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.header {
+    width: 80%;
+    height: 70px;
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    padding-top: 25px;
+
+}
+
+.header a:hover {
+    color: yellow;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.clr {
+    clear: both;
+}
+
+.first_information {
+    width: 80%;
+    height: 120px;
+    background-color: rgba(245, 245, 245, 0.073);
+    margin-left: 45px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.first_information:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    color: yellow;
+    border-radius: 20px;
+}
+
+.second_information {
+    width: 80%;
+    height: 120px;
+    background-color: rgba(245, 245, 245, 0.073);
+    margin-left: 125px;
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.second_information:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    color: yellow;
+    border-radius: 20px;
+}
+
+.third_information {
+    width: 80%;
+    height: 120px;
+    background-color: rgba(245, 245, 245, 0.073);
+    margin-left: 200px;
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.third_information:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+    color: yellow;
+    border-radius: 20px;
+}

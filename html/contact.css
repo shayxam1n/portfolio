@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.yashil1 {
+    width: 270px;
+    height: 270px;
+    background-color: yellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+}
+
+.yashil2 {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.asosiyquti {
+    width: 85%;
+    height: 75%;
+    border: 5px solid yellow;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 7;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20200701/ourmid/pngtree-black-yellow-line-geometric-display-board-background-image_345516.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.tepachapburchak {
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 0% 0% 100% 0%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.bosh {
+    width: 80%;
+    height: 70px;
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.bosh a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding: 20px;
+    padding-top: 25px;
+
+}
+
+.bosh a:hover {
+    color: yellow;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.clr {
+    clear: both;
+}
+
+
+.container {
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+}
+
+.adres {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 2rem;
+    padding: 20px;
+    gap: 25px;
+    color: white;
+}
+
+.adres:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    color: yellow;
+    cursor: pointer;
+}
+
+.raqam {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 2rem;
+    padding: 20px;
+    gap: 25px;
+    color: white;
+}
+
+.raqam:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    color: yellow;
+    cursor: pointer;
+}
+
+.telegram {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 2rem;
+    padding: 20px;
+    gap: 25px;
+    color: white;
+}
+
+.telegram:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    color: yellow;
+    cursor: pointer;
+}
+
+
+
+.instagram {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 2rem;
+    padding: 20px;
+    gap: 25px;
+    color: white;
+}
+
+.instagram:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    color: yellow;
+    cursor: pointer;
+}
